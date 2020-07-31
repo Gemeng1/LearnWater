@@ -1,0 +1,56 @@
+﻿using System.Collections.Generic;
+
+namespace Game
+{
+    public class CEvent 
+    {
+        private EGameEvent eventId;
+        private Dictionary<string, object> paramList;
+
+        public CEvent()
+        {
+            paramList = new Dictionary<string, object>();
+        }
+
+        public CEvent(EGameEvent id)
+        {
+            eventId = id;
+            paramList = new Dictionary<string, object>();
+        }
+
+        public EGameEvent GetEventId()
+        {
+            return eventId;
+        }
+
+        public void AddParam(string name,object value)
+        {
+            paramList[name] = value;
+        }
+
+        public object GetParam(string name) {
+            if (paramList.ContainsKey(name))
+            {
+                return paramList[name];
+            }
+            return null;
+        }
+
+        public bool HasParam(string name) {
+            return paramList.ContainsKey(name);
+        }
+
+        public int GetParamCount()
+        {
+            return paramList.Count;
+        }
+
+        public Dictionary<string,object> GetParamList()
+        {
+            return paramList;
+        }
+       
+    }
+}
+ 
+

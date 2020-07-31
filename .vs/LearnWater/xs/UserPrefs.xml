@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{5330BF07-569B-F771-336E-D6BF2EFCAAF8}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlanScript.cs">
+    <Files>
+      <File FileName="Assets/Shader/AlphaCutoffUnit.shader" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/PlanScript.cs" Line="10" Column="39" />
+      <File FileName="Assets/Scripts/DropSpawner.cs" />
+      <File FileName="Assets/Scripts/DrawLine.cs" />
+      <File FileName="Assets/Scripts/Common/Event.cs" />
+      <File FileName="Assets/Scripts/Common/EventDefine.cs" />
+      <File FileName="Assets/Scripts/Common/EventCenter.cs" Line="111" Column="1" />
+      <File FileName="Assets/Scripts/Common/CallBack.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LearnWater" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="PlanScript.cs" selected="True" />
+              </Node>
+              <Node name="Shader" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2a51faeb-d471-470c-b6c6-aeb2a9a4d016" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/xiemeilan/Documents/GitHub/WaterGame/LearnWater/Assets/Scripts/DropSpawner.cs" relfile="Assets/Scripts/DropSpawner.cs" line="55" column="1" />
+      <Breakpoint file="/Users/xiemeilan/Documents/GitHub/WaterGame/LearnWater/Assets/Scripts/DropSpawner.cs" relfile="Assets/Scripts/DropSpawner.cs" line="44" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
